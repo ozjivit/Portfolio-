@@ -72,6 +72,13 @@ const Navigation = () => {
           >
             Contact
           </Link>
+          <Link 
+            to="/privacy" 
+            className={`nav-link ${isActive('/privacy') ? 'active' : ''}`}
+            onClick={closeMenu}
+          >
+            Privacy
+          </Link>
         </div>
 
         <div className="nav-toggle" onClick={toggleMenu}>
@@ -84,4 +91,4 @@ const Navigation = () => {
   );
 };
 
-export default Navigation; 
+export default Navigation;

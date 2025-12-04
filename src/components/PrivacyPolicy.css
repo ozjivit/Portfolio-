@@ -1,0 +1,38 @@
+.
+privacy {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 60px 20px;
+}
+
+.privacy-header h1 {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+.last-updated {
+  color: #64748b;
+  margin-bottom: 1rem;
+}
+
+.privacy-section {
+  margin-top: 2rem;
+}
+
+.privacy-section h2 {
+  font-size: 1.25rem;
+  margin-bottom: 0.5rem;
+}
+
+.privacy-section ul {
+  padding-left: 1.25rem;
+}
+
+.emphasis {
+  font-weight: 600;
+}
+
+.contact-list a {
+  color: #334155;
+  text-decoration: underline;
+}
